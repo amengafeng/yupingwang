@@ -1,1 +1,80 @@
-p{padding:0 5px; text-indent:2em;}
+/*
+* @Author: ameng
+* @Date:   2016-03-23 10:25:34
+* @Last Modified by:   ameng
+* @Last Modified time: 2016-03-23 17:49:34
+*/
+body{font: 14px/24px "Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;background:#ffffff url("body.png") no-repeat center top;}
+ul,li{margin:0;padding:0;list-style: none;}.more.pull-right{font-size: 12px;color:#999;}.more:hover{color:red;}
+a{color:#555555;}/*white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;*/
+a:hover{color:#ff0000;text-decoration: none;}
+.fl{float: left;}
+.fr{float: right;}
+.c0,.c15,.c10{visibility: hidden;display: block;font-size: 0;clear: both;}
+.c15{height: 15px;}
+.c10{height: 10px;}
+.c0{height: 0px;}
+.m-b-15{margin-bottom: 15px;}
+.fa-3{font-size: 3.5em;}
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer , .list.lh24.f14{
+       cursor: pointer;}
+::selection{
+	color: white;
+	background-color: red;
+}
+::-moz-selection {
+	color: white;
+	background-color: red;
+}
+
+.banner{
+	height:230px;
+}
+.header{
+	width: 1020px;margin:0 auto;padding:10px;background:#ffffff;
+}
+.header-tt{
+	height:80px;
+}
+.header-tt .logo{
+	width:220px;
+}
+.header .header-hr{
+	width:1000px;
+	height:13px;
+	background:url("header-hr.jpg") no-repeat;
+}
+.header-tt .header-xx{
+	width:500px;
+}
+.header-tt .header-xx .tianqi{
+	margin-top:10px;
+	height:32px;
+}
+.header-tt .sousuo{
+	margin-top:20px;
+}
+/*nav*/
+.header-nav ul{
+	margin-top:3px;
+	padding:10px 0;
+	border-top:1px solid #efefef;
+	border-bottom:1px solid #efefef;
+}
+.nav>li>a{
+	padding:5px 8px;
+}
+.nav>li>a>i{
+	color:#3fb5e5;
+	margin:3px;
+}
+.b-l{padding-left:10px;border-left:1px solid #efefef;}
+.ad1,.ad2{
+	width:495px;
+	height:60px;
+}
+
+.footer{width:1000px;margin:0 auto;}
+.footer ul{width:100%;height:40px;background:#dcdcdc;}
+.footer ul li{float: left;line-height: 40px;}
+.footer ul li a{margin:0 25px;}
