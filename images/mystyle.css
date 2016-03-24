@@ -2,7 +2,7 @@
 * @Author: ameng
 * @Date:   2016-03-23 10:25:34
 * @Last Modified by:   ameng
-* @Last Modified time: 2016-03-23 17:49:34
+* @Last Modified time: 2016-03-24 17:41:22
 */
 body{font: 14px/24px "Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;background:#ffffff url("body.png") no-repeat center top;}
 ul,li{margin:0;padding:0;list-style: none;}.more.pull-right{font-size: 12px;color:#999;}.more:hover{color:red;}
@@ -16,6 +16,12 @@ a:hover{color:#ff0000;text-decoration: none;}
 .c0{height: 0px;}
 .m-b-15{margin-bottom: 15px;}
 .fa-3{font-size: 3.5em;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-family: "Microsoft YaHei","微软雅黑";}
+.more{color:#aaa;margin-left:10px;}
+.more:hover,.more-xq:hover{color:red;}
+.more-xq{color:#0280c5;}
+.more-hidden{display:block;white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;}
+.dashed{width:100%;height:5px;border-bottom:1px dashed #eaeaea;}
 a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer , .list.lh24.f14{
        cursor: pointer;}
 ::selection{
@@ -68,12 +74,166 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 	color:#3fb5e5;
 	margin:3px;
 }
-.b-l{padding-left:10px;border-left:1px solid #efefef;}
+.b-l{padding-left:10px;border-left:1px solid #eaeaea;}
 .ad1,.ad2{
 	width:495px;
 	height:60px;
 }
-
+.wangqun{
+	width:100%;
+	height:40px;
+	border:1px solid #eaeaea;
+	line-height: 40px;
+}
+.wangqun span{
+	width:100%;
+	height:40px;
+	padding-left:20px;
+	margin-right: 20px;
+	border-right:1px solid #eaeaea;
+}
+.wangqun button{
+	padding:0 10px;
+	margin:0 10px;
+}
+.wangqun span a{
+	padding:0 15px;
+}
+/**今日头条**************/
+.box-ty{
+	width:1020px;
+	padding:0 10px;
+	margin: 0 auto;
+}
+.toutiao .daytt{
+	width:660px;
+	height:100px;
+	overflow:hidden;
+}
+.toutiao .daytt span{
+	width:660px;
+	height:30px;
+	line-height:30px;
+	display:block;
+}
+.toutiao .daytt h1{
+	width:660px;
+	margin:15px 0;
+	font-weight: 700;
+}
+.toutiao .daytt h1,.toutiao .daytt h1 a{
+	color:#033266;
+}
+.toutiao .daytt span a{
+	width:280px;
+	height:30px;
+	float: left;
+	margin-right:10px;
+	text-align: center;
+}
+.toutiao .daytt span .more-tt{
+	width: 80px;
+	float: right;
+	margin-right: 0;
+}
+.toutiao .lingdao{
+	width:310px;
+	height:100px;
+}
+.toutiao .lingdao-con{
+	width:152px;
+	height:90px;
+	background:#ffeed0;
+}
+.toutiao .lingdao-con img{
+	margin:10px 2px;
+}
+.toutiao .lingdao-con span{
+	margin-top:20px;
+	width:75px;
+}
+/********************焦点幻灯**********************************/
+.box-left{
+	width:660px;
+}
+.box-right{
+	width:310px;
+}
+/**************/
+.hd{
+	width:320px;
+	height:210px;
+}
+/*通知公告*/
+.tongzhi{
+	width:320px;
+	height:200px;
+}
+/*要闻*/
+.yaowen{
+	width:320px;
+	height:420px;
+}
+.list li a{
+	width:100%;
+	height:30px;
+	line-height:30px;
+}
+.list-a-font.more-hidden{
+	font-weight: 700;
+	color:#0280c5;
+	font-size: 16px;
+}
+.list-a-font.more-hidden:hover{
+	color:red;
+}
+/*标题*/
+.title{
+	height:40px;
+	line-height: 40px;
+	border-bottom:1px solid #eaeaea;
+}
+.title h2{
+	padding:0 5px;
+	font-size: 22px;
+	height:40px;
+	line-height: 40px;
+	color:#0280c5;
+	border-bottom:1px solid #0280c5;
+}
+.title h2 a{
+	color:#0280c5;
+}
+.title h2:hover{
+	color:red;
+	border-bottom:1px solid red;
+}
+.title h2:hover a{
+	color:red;
+}
+/*微生活*/
+.weishenghuo{
+	width:310px;
+	height:420px;
+}
+.weishenghuo ul li h4 a{
+	width:100%;
+	height:22px;
+	line-height: 22px;
+	font-size:14px;
+	margin-bottom:5px;
+	font-weight:600;
+	text-align:center;
+}
+.weishenghuo ul li img{
+	width:150px;
+	height:90px;
+}
+.weishenghuo ul li p{
+	width:150px;
+	font-size:12px;
+	line-height: 21px;
+}
 .footer{width:1000px;margin:0 auto;}
 .footer ul{width:100%;height:40px;background:#dcdcdc;}
 .footer ul li{float: left;line-height: 40px;}
