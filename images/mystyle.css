@@ -2,7 +2,7 @@
 * @Author: ameng
 * @Date:   2016-03-23 10:25:34
 * @Last Modified by:   ameng
-* @Last Modified time: 2016-03-24 17:41:22
+* @Last Modified time: 2016-03-25 17:53:56
 */
 body{font: 14px/24px "Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;background:#ffffff url("body.png") no-repeat center top;}
 ul,li{margin:0;padding:0;list-style: none;}.more.pull-right{font-size: 12px;color:#999;}.more:hover{color:red;}
@@ -79,7 +79,7 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 	width:495px;
 	height:60px;
 }
-.wangqun{
+.wangqun,.links {
 	width:100%;
 	height:40px;
 	border:1px solid #eaeaea;
@@ -223,16 +223,82 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 	font-size:14px;
 	margin-bottom:5px;
 	font-weight:600;
-	text-align:center;
 }
 .weishenghuo ul li img{
 	width:150px;
-	height:90px;
+	height:80px;
 }
 .weishenghuo ul li p{
 	width:150px;
 	font-size:12px;
 	line-height: 21px;
+}
+/*视频*/
+.fa.fa-video-camera{color:#b1080b;}
+.shiping,.shiping-list{
+	width:320px;
+	height:260px;
+	overflow:hidden;
+}
+.shiping li{
+	width:150px;
+	height:124px;
+}
+.shiping li span{
+	position:absolute;
+	width:150px;
+	height:100px;
+	display:block;
+}
+.shiping .shiping-ioc{
+	width:150px;
+	height:100px;
+	line-height: 100px;
+	text-align: center;
+	position: relative;
+	top:0;
+	left:0;
+	font-size: 50px;
+	opacity: 0.4;
+}
+.shiping .shiping-ioc a{
+	width:150px;
+	height:100px;
+	display:block;
+}
+.shiping .shiping-ioc:hover{
+	opacity:0.8;
+}
+.shiping ul li{
+	margin-bottom:6px;
+}
+.shiping p{
+	margin:0;
+	width:150px;
+	white-space: nowrap;overflow: hidden;  text-overflow: ellipsis;
+}
+.shiping-list h4{
+	line-height: 35px;
+	font-weight: 700;
+}
+.shiping-list ul li{
+	line-height: 26px;
+}
+.xiezhen ul{
+	height:150px;
+}
+/*部门乡镇*/
+.bumenxiangzheng,.bumendongtai,.xiangzhen,.guoneiguoji{
+	height:200px;
+}
+.bumendongtai,.xiangzhen,.redian,.paihang{
+	width:320px;
+}
+.links{
+	width:1000px;
+}
+.links a{
+	padding-right:10px;
 }
 .footer{width:1000px;margin:0 auto;}
 .footer ul{width:100%;height:40px;background:#dcdcdc;}
