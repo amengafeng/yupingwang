@@ -2,7 +2,7 @@
 * @Author: ameng
 * @Date:   2016-03-23 10:25:34
 * @Last Modified by:   ameng
-* @Last Modified time: 2016-03-28 14:28:09
+* @Last Modified time: 2016-03-28 17:36:54
 */
 body{font: 14px/24px "Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;background:#ffffff url("body.png") no-repeat center top;}
 ul,li{margin:0;padding:0;list-style: none;}.more.pull-right{font-size: 12px;color:#999;}.more:hover{color:red;}
@@ -295,7 +295,7 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 	width:320px;
 }
 /*玩转玉屏*/
-.wanzhuan-fr,.wanzhuan-fl,.wanzhuan-fl-bnt{
+.wanzhuan-fr,.wanzhuan-fl,.wanzhuan-fl-bnt,.mingyi{
 	width:320px;
 }
 /*******/
@@ -305,7 +305,7 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 	position:relative;
 	top:-35px;
 	background:#7bbfea;
-	opacity:0.8;
+	opacity:0.7;
 	margin:0;
 }
 .wanzhuan-fl-img span{
@@ -344,11 +344,11 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 .wanzhuan-fr .list-a-font{
 	text-align: center;
 }
-.wanzhuan-fr .list li{
+.wanzhuan-fr .list li,.mingyi .list li{
 	height:26px;
 	line-height: 26px;
 }
-.wanzhuan-fr p{
+.wanzhuan-fr p,.mingyi .list p{
 	text-indent: 2em;
 }
 /***/
@@ -357,25 +357,18 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 	height:85px;
 	overflow:hidden;
 }
-.wanzhuan-img-con,.wanzhuan-img-con span a,.wanzhuan-img-con p{
+.wanzhuan-img-con,.wanzhuan-img-con span a,.wanzhuan-img-con span,.wanzhuan-img-con p{
 	width:155px;
 	height:85px;
 	display:block;
 	margin-right: 13px;
-}
-.wanzhuan-img .wanzhuan-img-con span a{
 	text-align: center;
-	color:#fff;
 }
 .wanzhuan-img .wanzhuan-img-con:hover p{
 	position:relative;
 	background:#7bbfea;
 	top:-100%;
-	opacity:0.8;
-}
-.wanzhuan-img .wanzhuan-img-con:hover p{
-	position:relative;
-	top:-100%;
+	opacity:0.7;
 }
 .wanzhuan-img .wanzhuan-img-con:hover span{
 	position:relative;
@@ -383,6 +376,7 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 }
 .wanzhuan-img .wanzhuan-img-con:hover span a{
 	color:red;
+	font-size:16px;
 }
 .wanzhuan-img .fr{
 	margin-right:0;
@@ -411,6 +405,16 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 .wenxue ul{
 	width:200px;
 	height:100px;
+}
+/*社情民意*/
+.fanyingchakan{
+	width:320px;
+	height:35px;
+	line-height: 35px;
+}
+.fanyingchakan a{
+	width:150px;
+	margin:0;
 }
 /*友情链接*/
 .links{
