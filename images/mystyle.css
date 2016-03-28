@@ -2,7 +2,7 @@
 * @Author: ameng
 * @Date:   2016-03-23 10:25:34
 * @Last Modified by:   ameng
-* @Last Modified time: 2016-03-25 17:53:56
+* @Last Modified time: 2016-03-28 14:28:09
 */
 body{font: 14px/24px "Oxygen",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;background:#ffffff url("body.png") no-repeat center top;}
 ul,li{margin:0;padding:0;list-style: none;}.more.pull-right{font-size: 12px;color:#999;}.more:hover{color:red;}
@@ -294,6 +294,125 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 .bumendongtai,.xiangzhen,.redian,.paihang{
 	width:320px;
 }
+/*玩转玉屏*/
+.wanzhuan-fr,.wanzhuan-fl,.wanzhuan-fl-bnt{
+	width:320px;
+}
+/*******/
+.wanzhuan-fl-img p{
+	width:320px;
+	height:35px;
+	position:relative;
+	top:-35px;
+	background:#7bbfea;
+	opacity:0.8;
+	margin:0;
+}
+.wanzhuan-fl-img span{
+	width:320px;
+	height:35px;
+	line-height: 35px;
+	color:#fff;
+	text-align: center;
+	position:relative;
+	top:-70px;
+}
+.wanzhuan-fl-img span a{
+	width:320px;
+	height:35px;
+	color:#fff;
+	display:block;
+	font-size:16px;
+}
+.wanzhuan-fl-img:hover a{
+	color:red;
+}
+.wanzhuan-fl-img{
+	width:320px;
+	height:175px;
+}
+/********/
+.wanzhuan-fl-bnt{
+	overflow:hidden;
+	height:80px;
+	padding-top:5px;
+}
+.wanzhuan-fl-bnt a{
+	margin-bottom:10px;
+	padding:5px 5px;
+}
+.wanzhuan-fr .list-a-font{
+	text-align: center;
+}
+.wanzhuan-fr .list li{
+	height:26px;
+	line-height: 26px;
+}
+.wanzhuan-fr p{
+	text-indent: 2em;
+}
+/***/
+.wanzhuan-img{
+	width:660px;
+	height:85px;
+	overflow:hidden;
+}
+.wanzhuan-img-con,.wanzhuan-img-con span a,.wanzhuan-img-con p{
+	width:155px;
+	height:85px;
+	display:block;
+	margin-right: 13px;
+}
+.wanzhuan-img .wanzhuan-img-con span a{
+	text-align: center;
+	color:#fff;
+}
+.wanzhuan-img .wanzhuan-img-con:hover p{
+	position:relative;
+	background:#7bbfea;
+	top:-100%;
+	opacity:0.8;
+}
+.wanzhuan-img .wanzhuan-img-con:hover p{
+	position:relative;
+	top:-100%;
+}
+.wanzhuan-img .wanzhuan-img-con:hover span{
+	position:relative;
+	top:-200%;
+}
+.wanzhuan-img .wanzhuan-img-con:hover span a{
+	color:red;
+}
+.wanzhuan-img .fr{
+	margin-right:0;
+}
+/******/
+.wenyi img{
+	width:150px;
+	height:80px;
+}
+.wenyi p{
+	width:150px;
+	line-height: 20px;
+	margin:0;
+}
+.weyi ul{
+	height:100px;
+}
+.weyi ul li{
+	height: 24px;
+	line-height: 24px;
+}
+.wenxue img{
+	width:100px;
+	height:100px;
+}
+.wenxue ul{
+	width:200px;
+	height:100px;
+}
+/*友情链接*/
 .links{
 	width:1000px;
 }
